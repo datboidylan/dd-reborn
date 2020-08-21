@@ -44,9 +44,9 @@ export default class MyDonations extends Component {
 
                                 <Dropdown.Menu id="dropdown-menu">
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
-                                    <Dropdown.Item as = "button" className = "dd-item">View Charity</Dropdown.Item>
+                                    <Link to='/explorer'><Dropdown.Item as = "button" className = "dd-item">View Charity</Dropdown.Item></Link>
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
-                                    <Link to='user/payments'><Dropdown.Item as = "button" className = "dd-item" >Donate Again</Dropdown.Item></Link>
+                                    <Link to='/user/payments'><Dropdown.Item as = "button" className = "dd-item" >Donate Again</Dropdown.Item></Link>
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
                                     <Dropdown.Item as = "button" className = "dd-item" id = "dd-delete">✖ Remove from Favorites</Dropdown.Item>
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
@@ -80,9 +80,9 @@ export default class MyDonations extends Component {
 
                                 <Dropdown.Menu id="dropdown-menu">
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
-                                    <Dropdown.Item as = "button" className = "dd-item">View Charity</Dropdown.Item>
+                                    <Link to='/explorer'><Dropdown.Item as = "button" className = "dd-item">View Charity</Dropdown.Item></Link>
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
-                                    <Dropdown.Item as = "button" className = "dd-item" ><Link to='/user/payments'>Donate Again</Link></Dropdown.Item>
+                                    <Link to='/user/payments'><Dropdown.Item as = "button" className = "dd-item" >Donate Again</Dropdown.Item></Link>
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
                                     <Dropdown.Item as = "button" className = "dd-item" id = "dd-delete">✖ Remove from Favorites</Dropdown.Item>
                                     <Dropdown.Divider className = "dd-divider"></Dropdown.Divider>
